@@ -1,2 +1,2 @@
 # nativejs-validate-template
-登录，注册模板
+原生js注册，登录验证模板

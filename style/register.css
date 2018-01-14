@@ -1,0 +1,74 @@
+body {
+  background-color: #fff1f1;
+}
+.register-wrap {
+  height: 640px;
+  margin: 120px auto 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+.register-wrap .register-form {
+  width: 400px;
+  height: 600px;
+  margin: 20px auto;
+}
+.register-wrap .register-form .form-item {
+  position: relative;
+  width: 398px;
+  height: 52px;
+  border: solid 1px #ddd;
+  -webkit-box-shadow: 0 0 10px #ddd;
+     -moz-box-shadow: 0 0 10px #ddd;
+          box-shadow: 0 0 10px #ddd;
+}
+.register-wrap .register-form .form-item.border-err {
+  border-color: #e22;
+}
+.register-wrap .register-form .form-item label {
+  float: left;
+  width: 70px;
+  height: 52px;
+  padding-left: 20px;
+  line-height: 52px;
+}
+.register-wrap .register-form .form-item .field {
+  float: right;
+  width: 280px;
+  height: 50px;
+  padding-left: 20px;
+  line-height: 52px;
+  border: 0 none;
+  font-size: 14px;
+}
+.register-wrap .register-form .form-item .validate-code {
+  position: absolute;
+  top: 0px;
+  right: -110px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 0 0 10px #ddd;
+     -moz-box-shadow: 0 0 10px #ddd;
+          box-shadow: 0 0 10px #ddd;
+  line-height: 50px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+.register-wrap .register-form .input-tip {
+  height: 27px;
+  padding-top: 5px;
+  padding-left: 15px;
+  color: #e22;
+  font-size: 13px;
+}
+.register-wrap .register-form .btn-register {
+  width: 100%;
+  height: 54px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  background-color: #e22;
+  font-size: 16px;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB";
+}

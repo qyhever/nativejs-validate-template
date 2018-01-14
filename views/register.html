@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <title>个人注册</title>
+    <link rel="stylesheet" href="../style/base.css">
+    <link rel="stylesheet" href="../style/register.css">
+</head>
+<body>
+    <div class="w register-wrap">
+        <form class="register-form">
+            <div class="form-item" id="form_item_account">
+                <label>用户名</label>
+                <input type="text" id="account" name="" class="field" maxlength="20" placeholder="您的账户名和用户名">
+            </div>
+            <div class="input-tip">
+                <span id="account_error"></span>
+            </div>
+            <div class="form-item" id="form_item_password">
+                <label>设置密码</label>
+                <input type="password" id="password" name="" class="field" placeholder="建议至少使用两种字符组合">
+            </div>
+            <div class="input-tip">
+                <span id="password_error"></span>
+            </div>
+            <div class="form-item" id="form_item_affirm_password">
+                <label>确认密码</label>
+                <input type="password" id="affirm_password" name="" class="field" placeholder="请再次输入密码">
+            </div>
+            <div class="input-tip">
+                <span id="affirm_password_error"></span>
+            </div>
+            <div class="form-item" id="form_item_phone">
+                <label>手机号</label>
+                <input type="text" id="phone_number" name="" class="field" placeholder="建议使用常用手机">
+            </div>
+            <div class="input-tip">
+                <span id="phone_number_error"></span>
+            </div>
+            <div class="form-item" id="form_item_email">
+                <label>邮箱</label>
+                <input type="text" id="email" name="" class="field" placeholder="请输入邮箱">
+            </div>
+            <div class="input-tip">
+                <span id="email_error"></span>
+            </div>
+            <div class="form-item" id="form_item_validate_code">
+                <label>验证码</label>
+                <input type="text" id="validate_code" name="" class="field" placeholder="请输入验证码">
+                <div class="validate-code" onselectstart="return false">点击获取</div>
+            </div>
+            <div class="input-tip">
+                <span id="validate_code_error"></span>
+            </div>
+            <div>
+                <button type="submit" class="btn-register">立即注册</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="../js/register.js"></script>
+</body>
+</html>

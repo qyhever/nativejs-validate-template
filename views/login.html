@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <title>欢迎登录</title>
+    <link rel="stylesheet" href="../style/base.css">
+    <link rel="stylesheet" href="../style/login.css">
+    <link rel="stylesheet" href="../lib/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div class="login-layout">
+        <div class="w login-wrap">
+            <div class="login-container">
+                <p class="tips-wrap">京东不会以任何理由要求您转账汇款，谨防诈骗。</p>
+                <div class="login-tab clearfix">
+                    <a href="javascript:void(0);" class="scan-code-login">扫码登录</a>
+                    <a href="javascript:void(0);" class="account-login">账户登录</a>
+                </div>
+                <div class="login-type">
+                    <form class="login-form">
+                        <div class="msg-wrap">
+                            <div class="msg-error">
+                                <i class="fa fa-warning"></i>
+                                <span class="msg-content"></span>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <label>
+                                <i class="fa fa-user"></i>
+                            </label>
+                            <input type="text" class="input-item" id="username" name="username" placeholder="邮箱/用户名/已验证手机">
+                        </div>
+                        <div class="form-item">
+                            <label>
+                                <i class="fa fa-key"></i>
+                            </label>
+                            <input type="password" class="input-item" id="password" name="password" placeholder="密码">
+                        </div>
+                        <div class="safe">
+                            <a href="javascript:void(0);" class="forget-password">
+                                忘记密码
+                            </a>
+                        </div>
+                        <div class="login-btn-wrap">
+                            <button type="submit" class="login-btn">登 录</button>
+                        </div>
+                        <div class="third-party" style="margin-top: 20px;">
+                            <i class="fa fa-qq" style="color: #10A8FF;"></i>
+                            <i class="fa fa-weixin" style="color: #00CC00"></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
